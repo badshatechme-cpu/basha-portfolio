@@ -30,14 +30,14 @@ export default function ContactPage() {
             {item.href ? (
               <Link
                 href={item.href}
-                className="mt-4 block break-words text-sm font-medium text-slate-100 underline underline-offset-4 transition hover:text-white"
+                className="mt-4 block wrap-break-word text-sm font-medium text-slate-100 underline underline-offset-4 transition hover:text-white"
                 target={item.href.startsWith("http") ? "_blank" : undefined}
                 rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
               >
                 {item.value}
               </Link>
             ) : (
-              <p className="mt-4 break-words text-sm font-medium text-slate-100">
+              <p className="mt-4 wrap-break-word text-sm font-medium text-slate-100">
                 {item.value}
               </p>
             )}
