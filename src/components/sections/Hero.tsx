@@ -6,11 +6,11 @@ export default function Hero() {
       <div className="mx-auto flex min-h-screen max-w-6xl items-center justify-center py-24">
         <div className="max-w-4xl text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
-            Enterprise Architecture • Solution Design • Digital Banking Transformation
+            Enterprise & Cloud Architecture | Digital Banking | Azure Solution Architect | Microservices, APIs, Event-Driven & Integration | AI, MLOps & NLP for Financial Services | UAE/GCC
           </p>
 
           <h1 className="mt-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-            Mohammad Ibrahim Badsha
+            MOHAMMAD IBRAHIM BADSHA
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">

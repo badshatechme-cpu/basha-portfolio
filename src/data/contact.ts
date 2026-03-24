@@ -1,15 +1,15 @@
 export const contactItems = [
   {
     title: "Email",
-    value: "your-real-email@example.com",
-    href: "mailto:your-real-email@example.com",
+    value: "badsha.tech.me@gmail.com",
+    href: "mailto:badsha.tech.me@gmail.com",
     description:
       "Use this for professional opportunities, architecture discussions, and collaboration.",
   },
   {
     title: "LinkedIn",
-    value: "linkedin.com/in/your-real-profile",
-    href: "https://linkedin.com/in/your-real-profile",
+    value: "linkedin.com/in/mohammad-ibrahim-badsha",
+    href: "https://www.linkedin.com/in/mohammad-ibrahim-badsha/",
     description:
       "Connect with me for enterprise architecture, solution design, and digital transformation discussions.",
   },

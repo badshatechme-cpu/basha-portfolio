@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/80 backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 text-white">
         <Link href="/" className="text-lg font-semibold tracking-wide">
-          Basha Portfolio
+          Technical Portfolio
         </Link>
 
         <div className="flex items-center gap-6 text-sm">
