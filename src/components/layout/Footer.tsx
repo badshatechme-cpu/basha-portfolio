@@ -19,8 +19,9 @@ export default function Footer() {
             Mohammad Ibrahim Badsha
           </h2>
           <p className="mt-3 text-sm leading-7 text-slate-400">
-            Enterprise architecture, solution design, digital banking
-            transformation, and modernization portfolio.
+            Senior Solution Architect portfolio focused on enterprise
+            architecture, digital banking transformation, integration strategy,
+            and modernization delivery.
           </p>
         </div>
 

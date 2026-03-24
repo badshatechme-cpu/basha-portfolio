@@ -42,12 +42,12 @@ export default function ResumePage() {
         </h2>
 
         <p className="mt-6 max-w-4xl text-base leading-8 text-slate-300">
-          I am Mohammad Ibrahim Badsha, a Solution Architect with more than 20
-          years of experience in enterprise technology, digital banking,
-          microservices, integration architecture, and large-scale
-          transformation initiatives. My professional journey combines strong
-          technical depth with architecture governance, delivery alignment, and
-          business-focused solution design.
+          I am Mohammad Ibrahim Badsha, a Senior Solution Architect with more
+          than 20 years of experience in enterprise technology, digital
+          banking, microservices, integration architecture, and transformation
+          delivery. My background combines strong hands-on engineering depth
+          with architecture governance, solution leadership, and business-aligned
+          technology strategy.
         </p>
       </section>
 

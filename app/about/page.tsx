@@ -16,23 +16,25 @@ export default function AboutPage() {
 
       <div className="mt-8 max-w-4xl space-y-6 text-lg leading-8 text-slate-300">
         <p>
-          I am Mohammad Ibrahim Badsha, a Solution Architect with more than 20
-          years of experience in enterprise technology, solution design,
-          large-scale integration, and digital transformation initiatives.
+          I am Mohammad Ibrahim Badsha, a Senior Solution Architect with more
+          than 20 years of experience in enterprise technology, architecture,
+          software engineering, and large-scale transformation initiatives.
         </p>
 
         <p>
-          My experience spans enterprise architecture, banking platforms,
-          microservices modernization, API ecosystems, distributed systems, and
-          architecture governance. I focus on building practical, scalable, and
-          business-aligned technology solutions for complex organizations.
+          My professional experience spans enterprise architecture, digital
+          banking platforms, microservices modernization, API ecosystems,
+          integration architecture, distributed systems, and technology
+          governance. I focus on designing practical, scalable, and
+          business-aligned solutions for complex enterprise environments.
         </p>
 
         <p>
-          Over the years, I have worked across engineering, architecture, and
-          leadership responsibilities, helping organizations design resilient
-          systems, modernize legacy platforms, and deliver strategic
-          transformation outcomes.
+          Over the years, I have worked across technical delivery, architecture
+          leadership, and solution strategy responsibilities, helping
+          organizations modernize platforms, improve engineering structure, and
+          deliver transformation outcomes with stronger alignment between
+          business goals and technology direction.
         </p>
       </div>
 
