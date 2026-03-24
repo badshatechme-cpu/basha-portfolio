@@ -1,5 +1,41 @@
 export const caseStudies = [
  {
+  slug: "enterprise-architecture-1000-bed-hospital",
+  title: "Enterprise Architecture for a 1000-Bed Smart Hospital Digital Platform",
+  summary:
+    "Designed the end-to-end enterprise architecture for a 1000-bed smart hospital, covering data center strategy, hybrid cloud integration, network architecture, zero-trust security, and disaster recovery with zero data loss and sub-45-minute recovery.",
+
+  tags: [
+    "Enterprise Architecture",
+    "Data Center",
+    "Disaster Recovery",
+    "Zero Trust Security",
+    "Hybrid Cloud",
+    "Network Architecture"
+  ],
+
+  businessContext:
+    "Designed a clinically safe, resilient, and secure technology platform for a large-scale hospital environment, ensuring uninterrupted patient-critical system performance while supporting advanced capabilities such as robotic surgery and global healthcare integrations.",
+
+  overview:
+    "Defined the complete enterprise architecture covering infrastructure, network, security, disaster recovery, and hybrid cloud integration for a 1000-bed hospital, balancing clinical reliability, performance, and scalability.",
+
+  challenge:
+    "The architecture required zero tolerance for downtime, ultra-low latency for critical systems, secure integration with global healthcare partners, and the ability to handle catastrophic failure scenarios without impacting patient safety.",
+
+  approach:
+    "Adopted a hybrid enterprise architecture with Tier IV primary data center, Tier III disaster recovery site, 100G dark fiber for synchronous replication, multi-cloud active-active for public systems, and segmented network architecture aligned to clinical criticality.",
+
+  keyDecisions:
+    "Selected Active–Hot Standby DR model to eliminate split-brain risk, used 100G dark fiber for RPO=0 replication, implemented Zero Trust security across layers, separated workloads based on clinical criticality, and adopted multi-cloud only for non-clinical workloads.",
+
+  tradeoffs:
+    "Higher infrastructure investment for guaranteed clinical safety, increased complexity due to hybrid architecture, and strict workload segregation reducing flexibility but significantly improving reliability and risk posture.",
+
+  outcome:
+    "Achieved zero data loss (RPO=0), recovery within 45 minutes (RTO≤45min), enabled zero-downtime operations, and delivered a scalable, future-ready enterprise architecture aligned with clinical safety requirements.",
+}, 
+ {
   slug: "cqrs-cdc-read-optimization-digital-banking",
   title: "CQRS and CDC-Based Read Optimization for Digital Banking",
   summary:

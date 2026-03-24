@@ -74,7 +74,8 @@ export default async function PortfolioDetailPage({
 
           <div className="mt-8 overflow-hidden rounded-2xl border border-slate-800 bg-white p-4">
             <img
-              src="/diagrams/cqrs-architecture-diagram.png"
+              src="/new.drawio.svg"
+              
               alt="CQRS architecture diagram"
               className="w-full rounded-xl"
             />
