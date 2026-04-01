@@ -5,7 +5,7 @@ export default function FeaturedCaseStudies() {
   const featuredStudies = caseStudies.slice(0, 3);
 
   return (
-    <section className="bg-slate-900 px-6 py-20 text-white">
+    <section id="case-studies" className="bg-slate-900 px-6 py-20 text-white">
       <div className="mx-auto max-w-6xl">
         <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
           Featured Work

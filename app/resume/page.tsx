@@ -36,7 +36,7 @@ export default function ResumePage() {
         description="A concise view of my architecture experience, professional focus, and leadership strengths."
       />
 
-      <section className="mt-12 rounded-2xl border border-slate-800 bg-slate-900 p-8">
+      <section id="resume-summary" className="mt-12 rounded-2xl border border-slate-800 bg-slate-900 p-8">
         <h2 className="text-2xl font-semibold sm:text-3xl">
           Executive Summary
         </h2>
@@ -51,7 +51,7 @@ export default function ResumePage() {
         </p>
       </section>
 
-      <section className="mt-12 grid gap-6 lg:grid-cols-2">
+      <section id="resume-highlights" className="mt-12 grid gap-6 lg:grid-cols-2">
         <div className="rounded-2xl border border-slate-800 bg-slate-900 p-8">
           <h2 className="text-2xl font-semibold">Career Highlights</h2>
 

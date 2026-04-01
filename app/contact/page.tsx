@@ -19,7 +19,7 @@ export default function ContactPage() {
         description="I am always open to meaningful conversations around enterprise architecture, solution design, digital banking transformation, modernization programs, and senior technology leadership opportunities."
       />
 
-      <div className="mt-12 grid gap-6 md:grid-cols-3">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {contactItems.map((item) => (
           <div
             key={item.title}
@@ -49,7 +49,7 @@ export default function ContactPage() {
         ))}
       </div>
 
-      <section className="mt-16 rounded-2xl border border-slate-800 bg-slate-900 p-8">
+      <section id="contact-info" className="mt-16 rounded-2xl border border-slate-800 bg-slate-900 p-8">
         <h2 className="text-2xl font-semibold sm:text-3xl">
           Available for professional discussions
         </h2>

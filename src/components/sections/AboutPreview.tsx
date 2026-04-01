@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutPreview() {
   return (
-    <section className="bg-slate-950 px-6 py-20 text-white">
+    <section id="about" className="bg-slate-950 px-6 py-20 text-white">
       <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-slate-400">

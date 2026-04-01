@@ -7,7 +7,7 @@ const metrics = [
 
 export default function Metrics() {
   return (
-    <section className="bg-slate-950 px-6 py-24 text-white">
+    <section id="metrics" className="bg-slate-950 px-6 py-24 text-white">
       <br/>
         <div className="mx-auto max-w-6xl">
           <p className="text-sm uppercase tracking-[0.3em] text-slate-400">

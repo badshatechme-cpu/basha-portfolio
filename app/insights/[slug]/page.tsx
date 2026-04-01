@@ -29,7 +29,7 @@ export default async function InsightDetailPage({
         ← Back to Insights
       </Link>
 
-      <section className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-8 sm:p-10">
+      <section id="insight-header" className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-8 sm:p-10">
         <span className="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-xs text-slate-300">
           {insight.category}
         </span>
@@ -43,7 +43,7 @@ export default async function InsightDetailPage({
         </p>
       </section>
 
-      <section className="mt-10 grid gap-6 lg:grid-cols-[1.4fr_0.6fr]">
+      <section id="insight-content" className="mt-10 grid gap-6 lg:grid-cols-[1.4fr_0.6fr]">
         <div className="space-y-8">
           <div className="rounded-2xl border border-slate-800 bg-slate-900 p-8">
             <h2 className="text-2xl font-semibold">Introduction</h2>

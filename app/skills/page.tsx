@@ -18,7 +18,7 @@ export default function SkillsPage() {
         description="A structured view of my enterprise architecture, technical, domain, and leadership capabilities built across more than 20 years of experience."
       />
 
-      <div className="mt-12 grid gap-6 md:grid-cols-2">
+      <div id="skills-list" className="mt-12 grid gap-6 md:grid-cols-2">
         {skillCategories.map((category) => (
           <section
             key={category.title}

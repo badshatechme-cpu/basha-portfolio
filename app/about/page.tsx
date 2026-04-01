@@ -16,30 +16,33 @@ export default function AboutPage() {
 
       <div className="mt-8 max-w-4xl space-y-6 text-lg leading-8 text-slate-300">
         <p>
-          I am Mohammad Ibrahim Badsha, a Senior Solution Architect with more
-          than 20 years of experience in enterprise technology, architecture,
-          software engineering, and large-scale transformation initiatives.
+            I am Mohammad Ibrahim Badsha, a Senior Solution Architect with over two decades of experience designing 
+            enterprise systems that are expected to perform when failure is not an option.
         </p>
 
         <p>
-          My professional experience spans enterprise architecture, digital
-          banking platforms, microservices modernization, API ecosystems,
-          integration architecture, distributed systems, and technology
-          governance. I focus on designing practical, scalable, and
-          business-aligned solutions for complex enterprise environments.
+          My expertise spans enterprise architecture, digital banking platforms, 
+          microservices ecosystems, and large-scale transformation programs. 
+          I focus on building systems that are resilient, scalable, and aligned to 
+          real business outcomes—particularly in environments where performance, 
+          reliability, and security are critical.
         </p>
 
         <p>
-          Over the years, I have worked across technical delivery, architecture
-          leadership, and solution strategy responsibilities, helping
-          organizations modernize platforms, improve engineering structure, and
-          deliver transformation outcomes with stronger alignment between
-          business goals and technology direction.
+          Over the years, I have led architecture initiatives across digital banking platforms, 
+          integration ecosystems, and distributed systems, including high-scale microservices 
+          landscapes and mission-critical enterprise environments. 
+          My work has involved solving complex challenges such as read/write optimization using CQRS patterns, large-scale platform modernization, and designing resilient infrastructure capable of supporting zero data loss and high-availability requirements.
+        </p>
+        <p>
+          My approach to architecture is grounded in clarity, structured decision-making,
+           and a deep understanding of trade-offs. I believe strong systems are not just 
+           designed—they are shaped through practical choices that ensure they continue 
+           to perform under real-world conditions, not just on diagrams.
         </p>
       </div>
 
-      <section className="mt-16">
-        <h2 className="text-2xl font-semibold sm:text-3xl">Core Strengths</h2>
+      <section id="strengths" className="mt-16">
 
         <div className="mt-8 flex flex-wrap gap-3">
           {strengths.map((item) => (
@@ -53,10 +56,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="mt-16">
-        <h2 className="text-2xl font-semibold sm:text-3xl">
-          Professional Journey
-        </h2>
+      <section id="journey" className="mt-16">
 
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {journey.map((item) => (

@@ -19,7 +19,7 @@ export default function InsightsPage() {
         description="A collection of short perspectives and professional observations on enterprise architecture, digital transformation, modernization, governance, and customer-facing technology platforms."
       />
 
-      <section className="mt-10 rounded-2xl border border-slate-800 bg-slate-900 p-8">
+      <section id="insights-intro" className="mt-10 rounded-2xl border border-slate-800 bg-slate-900 p-8">
         <h2 className="text-2xl font-semibold sm:text-3xl">
           Why this section matters
         </h2>

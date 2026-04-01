@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CallToAction() {
   return (
-    <section className="bg-slate-950 px-6 py-20 text-white">
+    <section id="contact" className="bg-slate-950 px-6 py-20 text-white">
       <div className="mx-auto max-w-5xl rounded-3xl border border-slate-800 bg-slate-900 p-10 sm:p-12">
         <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
           Let’s Connect

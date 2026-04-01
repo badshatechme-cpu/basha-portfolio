@@ -18,7 +18,7 @@ const expertiseItems = [
 
 export default function Expertise() {
   return (
-    <section className="bg-slate-900 px-6 py-24 text-white">
+    <section id="expertise" className="bg-slate-900 px-6 py-24 text-white">
       <br />
       <div className="mx-auto max-w-6xl">
         <p className="text-sm uppercase tracking-[0.3em] text-slate-400">

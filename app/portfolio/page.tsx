@@ -19,7 +19,7 @@ export default function PortfolioPage() {
         description="A selected portfolio of enterprise architecture, modernization, integration, and digital transformation initiatives representing my approach to scalable design, structured decision-making, and business-aligned technology leadership."
       />
 
-      <section className="mt-10 rounded-2xl border border-slate-800 bg-slate-900 p-8">
+      <section id="portfolio-intro" className="mt-10 rounded-2xl border border-slate-800 bg-slate-900 p-8">
         <h2 className="text-2xl font-semibold sm:text-3xl">
           What this portfolio represents
         </h2>

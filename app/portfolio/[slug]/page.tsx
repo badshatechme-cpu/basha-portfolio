@@ -34,7 +34,7 @@ export default async function PortfolioDetailPage({
       </Link>
 
       {/* Header */}
-      <section className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-8 sm:p-10">
+      <section id="case-study-header" className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-8 sm:p-10">
         <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
           Case Study
         </p>
@@ -89,7 +89,7 @@ export default async function PortfolioDetailPage({
       )}
 
       {/* Main Content + Sidebar */}
-      <section className="mt-10 grid gap-6 lg:grid-cols-[1.4fr_0.6fr]">
+      <section id="case-study-content" className="mt-10 grid gap-6 lg:grid-cols-[1.4fr_0.6fr]">
         {/* LEFT CONTENT */}
         <div className="space-y-8">
           <div className="rounded-2xl border border-slate-800 bg-slate-900 p-8">
