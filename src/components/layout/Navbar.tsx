@@ -23,7 +23,7 @@ export default function Navbar() {
           Technical Portfolio
         </Link>
 
-        <div className="flex items-center gap-6 text-sm">
+        <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
           {navItems.map((item) => {
             const isActive =
               item.href === "/"
