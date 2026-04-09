@@ -10,7 +10,7 @@ export default function Hero() {
           </p>
 
           <h1 className="mt-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-            IBRAHIM BADSHA
+            MOHAMMAD IBRAHIM BADSHA
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">
